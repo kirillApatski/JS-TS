@@ -8,12 +8,13 @@ type AddressType = {
     city: CityType
 }
 
+
 type TechnologiesType = {
     id: number
     title: string
 }
 
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
